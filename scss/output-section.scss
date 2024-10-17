@@ -1,0 +1,29 @@
+#output-section {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.todo-wrapper {
+  display: flex;
+  background-color: rgb(215, 214, 214);
+  max-height: 20px;
+  min-width: 100px;
+  justify-content: space-between;
+
+  p {
+    text-align: center;
+  }
+
+  &.completed {
+    background-color: rgb(199, 255, 199);
+    p {
+      text-decoration: line-through;
+      color: gray;
+    }
+  }
+
+  padding: 5px;
+  border: 1px solid $secondary-color2;
+  border-radius: $border-radius-medium;
+}

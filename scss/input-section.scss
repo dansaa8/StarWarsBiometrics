@@ -1,0 +1,18 @@
+#input-section {
+  border: 1px solid $secondary-color2;
+  border-radius: $border-radius-medium;
+  max-width: 500px;
+  width: 100%;
+  margin: 30px;
+
+  display: flex;
+  justify-content: center;
+
+  form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+  }
+}

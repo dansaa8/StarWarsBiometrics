@@ -1,0 +1,56 @@
+p,
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $main-color2;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: $text-color;
+}
+
+header {
+  background-color: $main-color1;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  border-bottom: 2px solid $secondary-color1;
+  color: $secondary-color1;
+
+  h1 {
+    padding: 25px;
+  }
+}
+
+main {
+  max-width: 1120px;
+  width: 100%;
+  border: 1px solid $secondary-color2;
+  border-radius: $border-radius-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1; /* Let main take up available space */
+  margin: 5px;
+}
+
+footer {
+  background-color: $main-color1;
+  width: 100%;
+  margin: 0;
+  border-top: 2px solid $secondary-color1;
+  text-align: center;
+  color: $secondary-color1;
+
+  p {
+    padding: 10px;
+  }
+}
